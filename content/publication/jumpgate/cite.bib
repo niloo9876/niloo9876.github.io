@@ -1,0 +1,16 @@
+@inproceedings{10.1145/3456727.3463770,
+author = {Mustard, Craig and Goswami, Swati and Gharavi, Niloofar and Nider, Joel and Beschastnikh, Ivan and Fedorova, Alexandra},
+title = {Jumpgate: Automating Integration of Network Connected Accelerators},
+year = {2021},
+isbn = {9781450383981},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3456727.3463770},
+doi = {10.1145/3456727.3463770},
+abstract = {Network-connected accelerators (NCA), such as programmable switches, ASICs, and FPGAs can speed up operations in data analytics. But so far, integration of NCAs into data analytics systems required manual effort.We present Jumpgate, a system that simplifies integration of existing NCA code into data analytics systems, such as Apache Spark or Presto. Jumpgate places most of the integration code into the analytics system, which needs to be written once, leaving NCA programmers to write only a couple hundred lines of code to integrate new NCAs. Jumpgate relies on dataflow graphs that most analytics systems use internally, and takes care of the invocation of NCAs, the necessary format conversion, and orchestration of their execution via novel staged network pipelines.Our implementation of Jumpgate in Apache Spark made it possible, for the first time, to study the benefits and drawbacks of using NCAs across the entire range of queries in the TPC-DS benchmark. Since we lack hardware that can accelerate all analytics operations, we implemented NCAs in software. We report on how and when analytics workloads will benefit from NCAs to motivate future designs.},
+booktitle = {Proceedings of the 14th ACM International Conference on Systems and Storage},
+articleno = {18},
+numpages = {12},
+location = {Haifa, Israel},
+series = {SYSTOR '21}
+}
